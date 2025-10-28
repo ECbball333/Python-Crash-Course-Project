@@ -16,4 +16,5 @@ while True:
         break
 
     album = get_make_album(artist_name.title(), album_title.title())
-    print(f"\nYour favorite artist is {artist_name.title()}, and your favorite album is {album_title.title()}! ")
+    print(f"\nYour favorite artist is {artist_name.title()}, "
+          f"and your favorite album is {album_title.title()}! ")
