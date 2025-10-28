@@ -15,4 +15,4 @@ for name, response in responses.items():
     print(f"{name.title()} would like a trip to {response.title()}. ")
 
 
-print(responses)
+print(f'\n{responses}')
