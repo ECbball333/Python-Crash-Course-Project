@@ -6,13 +6,13 @@ def get_make_album(artist_name, album_title):
 while True:
     print("\nPlease enter an artist and album")
     print("Enter 'q' to quit.")
-    artist_name = input("Artist: ")
-    album_title = input("Album: ")
 
+    artist_name = input("Artist: ")
     if artist_name == 'q':
         break
 
-    if album_title =='q':
+    album_title = input("Album: ")
+    if album_title == 'q':
         break
 
     album = get_make_album(artist_name.title(), album_title.title())
