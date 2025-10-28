@@ -17,5 +17,3 @@ while True:
 
     album = get_make_album(artist_name.title(), album_title.title())
     print(album)
-
-get_make_album('jay-z', 'blueprint')
