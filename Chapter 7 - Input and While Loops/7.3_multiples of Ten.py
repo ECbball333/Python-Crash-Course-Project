@@ -1,4 +1,4 @@
-number = input("\nGive me a number, and I will tell you if it's a multiple of 10: ")
+number = input("\n Give me a number, and I will tell you if it's a multiple of 10: ")
 number = int(number)
 
 if number % 10 == 0:
