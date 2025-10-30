@@ -8,6 +8,4 @@ def make_pizza(size, *toppings):
         print(f"- {topping}")
 
 
-make_pizza(16,'pepperoni')
-make_pizza(8, 'mushrooms', 'green peppers', 'extra cheese')
-make_pizza(20, 'sausage', 'mushrooms', 'bacon', 'pineapple')
+
