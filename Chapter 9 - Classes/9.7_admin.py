@@ -21,12 +21,24 @@ class Admin(User):
     def greet_admin(self):
         """Greet the admin and list their privileges."""
         if not self.admin_roles:
-            print(f"Hello {self.first_name.title()} — you have no admin roles assigned yet.")
+            print(f"\nHello {self.first_name.title()} — you have no admin roles assigned yet.")
         else:
             roles = ", ".join(self.admin_roles)
-            print(f"Hello {self.first_name.title()} — your admin roles: {roles}.")
 
+
+    def add_role(self, role):
+        if role not in self.admin_roles:
+            self.admin_roles.append(role)
+            print(f'{self.admin_roles}')
+
+    #def remove_role(self, role):
+    #    if role in self.admin_roles:
+    #        self.admin_roles.remove(role)
 
 # Example usage
-elliot = Admin('elliot', 'conner')
+elliot = Admin('elliot', 'conner', admin_roles=['admin', 'manager'])
+evan = Admin( 'evan', 'conner', admin_roles=['user', 'admin'])
+jamie = Admin('jamie', 'conner')
+
+
 elliot.greet_admin()

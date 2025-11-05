@@ -1,3 +1,5 @@
+"""A set of classes that can be used to represent gas and electric cars."""
+
 #Working with Classes and Instances
 class Car:
     """A simple attempt to make a car."""
@@ -7,7 +9,7 @@ class Car:
         self.model = model
         self.year = year
         #Set a Default Value for an Attribute
-        self.odometer_reading = 23500
+        self.odometer_reading = 0
 
     def descriptive_name(self):
         """Return a neatly formatted descriptive name."""
@@ -36,23 +38,47 @@ class Car:
 
 
 
-my_new_car = Car('audi', 'a4', 2024)
-my_used_car = Car('subaru', 'outback', 2019)
+#my_new_car = Car('audi', 'a4', 2024)
+#my_used_car = Car('subaru', 'outback', 2019)
 
-print(f'\n{my_new_car.descriptive_name()}')
-print(f'\n{my_used_car.descriptive_name()}\n')
+#print(f'\n{my_new_car.descriptive_name()}')
+#print(f'\n{my_used_car.descriptive_name()}\n')
 
 # Modify an Attributes Value Directly
-my_new_car.odometer_reading = 23
-my_new_car.update_odometer(89)
-my_new_car.read_odometer() # Read odometer value
+#my_new_car.odometer_reading = 23
+#my_new_car.update_odometer(89)
+#my_new_car.read_odometer() # Read odometer value
 
 
-my_used_car.update_odometer(23_600)
-my_used_car.read_odometer()
-my_used_car.increment_odometer(75445)
-my_used_car.read_odometer()
+#my_used_car.read_odometer()
+#my_used_car.increment_odometer(75445)
+#my_used_car.read_odometer()
+
+# Storing Multiple Classes in a Module
+class Battery:
+    """A simple attempt to model a battery for an electric car."""
+    def __init__(self, battery_size=40):
+        """Initialize the battery's attributes."""
+        self.battery_size = battery_size
+
+    def describe_battery(self):
+        """Print a statement describing the battery size/"""
+        print(f"This car has a {self.battery_size}-kWh battery.")
+
+    def get_range(self):
+        """Print a statement about the range this battery provides."""
+        if self.battery_size == 40:
+            range = 150
+        elif self.battery_size == 65:
+            range = 225
+
+        print(f"This car can go about {range} miles on a full charge.")
 
 
-
-
+class ElectricCar(Car):
+    """Models aspects of a car, specific to electric vehicles."""
+    def __init__(self, make, model, year):
+        """Initialize attributes of the parent class.
+        Then initialize attributes specific to an electric car."""
+        super().__init__(make, model, year)
+        self.battery = Battery()
