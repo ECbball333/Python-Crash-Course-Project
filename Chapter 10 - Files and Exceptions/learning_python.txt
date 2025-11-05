@@ -1,0 +1,5 @@
+
+In Python you can work with simple data.
+In Python you can create lists and dictionaries to group data.
+In Python you can create loops to read through large volumes of data.
+In Python you can create programs.
