@@ -15,7 +15,7 @@ while True:
 
 # Write all collected names to the file, one per line
 if names:
-    path.write_text("\n".join(names) + "\n", encoding="utf-8")
+    path.write_text("\n".join(names) + "\n")
     print(f"Wrote {len(names)} name(s) to {path.name}.")
 else:
     print("No names entered; nothing written.")
