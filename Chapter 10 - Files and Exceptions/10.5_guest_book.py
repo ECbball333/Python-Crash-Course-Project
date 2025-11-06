@@ -1,6 +1,6 @@
 from pathlib import Path
 
-path = Path("guest_book.txt")
+path = Path("guest_book2.txt")
 
 print("Enter 'q' to quit.")
 names = []
@@ -15,7 +15,7 @@ while True:
 
 # Write all collected names to the file, one per line
 if names:
-    path.write_text("\n".join(names) + "\n")
+    path.write_text(f"\n".join(names) + "\n")
     print(f"Wrote {len(names)} name(s) to {path.name}.")
 else:
     print("No names entered; nothing written.")
