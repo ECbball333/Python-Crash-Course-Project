@@ -27,10 +27,10 @@ Hands-on exercises and mini-projects I’m completing while working through **Py
 **Prerequisites**
 - Python 3.10+ recommended (any 3.8+ should work)
 - Optional: `venv` for an isolated environment
+- pip install -r requirements.txt
 
 ```bash
 # create & activate a virtual environment (optional)
-pip install -r requirements.txt
 python -m venv .venv
 # Windows: .venv\Scripts\activate
 # macOS/Linux:
