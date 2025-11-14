@@ -80,4 +80,4 @@ ruff check .
 
 ## 📄 License
 
-Personal learning repository. If you’d like to use any snippet, feel free—please credit.
+Licensed under the MIT License — see LICENSE for details.
