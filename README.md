@@ -16,6 +16,7 @@ Hands-on exercises and mini-projects I’m completing while working through **Py
 - `Chapter 10 - Files and Exceptions/`
 - `Chapter 11 - Testing your Code/`
 - `Chapter 15 - Generating Data/`
+- `{Chapter 15 — Generating Data](Chapter%2015%20-%20Generating%20Data/)`
 - `Cisco Scripts/` — a separate area where I jot down networking-related Python snippets  
 - `script.py` — scratchpad / quick experiments  
 
