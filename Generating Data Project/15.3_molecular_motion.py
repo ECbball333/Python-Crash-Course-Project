@@ -1,32 +1,35 @@
 import matplotlib.pyplot as plt
-
 from random_walk import RandomWalk
 
-# Keep making new walks, as long as the walk is active.
 while True:
-    # Make a random walk
-    rw = RandomWalk()
+    rw = RandomWalk(200)
     rw.fill_walk()
 
-    # Plot the points in the walk
-    plt.style.use('classic')
-    #fig, ax = plt.subplots()
-    fig, ax = plt.subplots(figsize=(15, 9), dpi=100) # Altered the size of the fill screen
+    plt.style.use("classic")
+    fig, ax = plt.subplots(figsize=(15, 9), dpi=100)
+    ax.set_aspect("equal", adjustable="datalim")
 
-    # Coloring the Points
-    point_numbers = range(rw.num_points)
-    ax.plot(rw.x_values, rw.y_values, linewidth=2)
-    ax.set_aspect('equal')
+    # (Optional) light base path for context
+    ax.plot(rw.x_values, rw.y_values, linewidth=1.5, color="gray", alpha=0.35, zorder=1)
 
-    # Emphasize the starting and ending points
-    ax.plot(0, 0, c='green')
-    ax.plot(rw.x_values[-1], rw.y_values[0], c='red')
+    # Fade via colormap: early -> late
+    ax.scatter(
+        rw.x_values, rw.y_values,
+        c=range(rw.num_points),         # color by step index
+        cmap="viridis",                 # pick any: 'viridis', 'plasma', 'cividis'
+        s=10,                           # a bit larger so the gradient shows
+        edgecolors="none",
+        zorder=2
+    )
 
-    # Remove the axes.
-    ax.get_xaxis().set_visible(False)
-    ax.get_yaxis().set_visible(False)
+    # Start/end markers on top
+    ax.plot(0, 0, marker="o", markersize=8, color="green", linestyle="None", zorder=3)
+    ax.plot(rw.x_values[-1], rw.y_values[-1], marker="o", markersize=8,
+            color="red", linestyle="None", zorder=3)
+
+    ax.axis("off")
+    plt.tight_layout()
     plt.show()
 
-    keep_running= input("Make another walk? (y/n): ")
-    if keep_running == 'n':
+    if input("Make another walk? (y/n): ").lower().startswith("n"):
         break
