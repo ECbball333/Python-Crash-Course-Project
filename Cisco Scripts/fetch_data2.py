@@ -4,7 +4,7 @@ device = {
     'device_type': 'cisco_ios',
     'host': '192.168.68.61',
     'username': 'admin',
-    'password': "Pass2885!",
+    'password': "",
 }
 
 commands = [

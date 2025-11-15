@@ -15,8 +15,8 @@ while True:
 
     # Coloring the Points
     point_numbers = range(rw.num_points)
-    ax.scatter(rw.x_values, rw.y_values, c=point_numbers, cmap=plt.cm.Blues,
-               edgecolors='none', s=50)
+    ax.scatter(rw.x_values, rw.y_values, c=point_numbers, cmap=plt.cm.Oranges,
+               edgecolors='none', s=20)
     ax.set_aspect('equal')
 
     # Emphasize the starting and ending points
