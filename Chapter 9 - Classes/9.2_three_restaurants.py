@@ -1,9 +1,5 @@
 import string
 
-from debugpy.launcher.debuggee import describe
-from jinja2.lexer import describe_token_expr
-
-
 class Restaurant:
     """Create a Restaurant class."""
     def __init__(self, name, cuisine_type):

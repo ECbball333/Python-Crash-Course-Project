@@ -18,16 +18,16 @@ class User:
         print(f"Hello, {self.first_name.title()}. Isn't Python fun?")
 
 
-elliot = User('elliot', 'conner', 'preston', 43, 'huntsville, alabama')
-jamie = User('jamie', 'conner', 'nicole', 43, 'washington dc')
-emery = User('emery', 'conner', 'ann', 1, 'charlotte, north carolina')
+mike = User('mike', 'conner', 'andrew', 34, 'huntsville, alabama')
+john = User('john', 'conner', 'beverly', 28, 'washington dc')
+jane = User('jane', 'conner', 'michelle', 4, 'charlotte, north carolina')
 
 
-elliot.describe_user()
-elliot.greet_user()
-jamie.describe_user()
-jamie.greet_user()
-emery.describe_user()
-emery.greet_user()
+mike.describe_user()
+mike.greet_user()
+john.describe_user()
+john.greet_user()
+jane.describe_user()
+jane.greet_user()
 
 
