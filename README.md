@@ -32,7 +32,8 @@ Hands-on exercises and mini-projects I’m completing while working through **Py
 ```bash
 # create & activate a virtual environment (optional)
 python -m venv .venv
-# Windows: .venv\Scripts\activate
+# Windows:
+.venv\Scripts\activate
 # macOS/Linux:
 source .venv/bin/activate
 ```
