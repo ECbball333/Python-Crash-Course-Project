@@ -18,6 +18,7 @@ Hands-on exercises and mini-projects I’m completing while working through **Py
 - `Chapter 15 - Generating Data/`
 - [Chapter 15 — Generating Data/](Chapter%2015%20-%20Generating%20Data/)
 - `Chapter 16 - Downloading Data/`
+- [Chapter 16 — Visualizing Data/](./Chapter%2016%20-%20Visualizing%20Data/)
 - `Cisco Scripts/` — a separate area where I jot down networking-related Python snippets  
 - `script.py` — scratchpad / quick experiments  
 
