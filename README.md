@@ -12,7 +12,11 @@ Hands-on exercises and mini-projects I’m completing while working through **Py
 - `Chapter 6 - Dictionaries/`  
 - `Chapter 7 - Input and While Loops/`  
 - `Chapter 8 - Functions/`  
-- `Chapter 9 - Classes/`  
+- `Chapter 9 - Classes/`
+- `Chapter 10 - Files and Exceptions/`
+- `Chapter 11 - Testing your Code/`
+- `Chapter 15 - Generating Data/`
+- [Chapter 15 — Generating Data/](Chapter%2015%20-%20Generating%20Data/)
 - `Cisco Scripts/` — a separate area where I jot down networking-related Python snippets  
 - `script.py` — scratchpad / quick experiments  
 
@@ -23,11 +27,13 @@ Hands-on exercises and mini-projects I’m completing while working through **Py
 **Prerequisites**
 - Python 3.10+ recommended (any 3.8+ should work)
 - Optional: `venv` for an isolated environment
+- pip install -r requirements.txt
 
 ```bash
 # create & activate a virtual environment (optional)
 python -m venv .venv
-# Windows: .venv\Scripts\activate
+# Windows:
+.venv\Scripts\activate
 # macOS/Linux:
 source .venv/bin/activate
 ```
@@ -76,4 +82,4 @@ ruff check .
 
 ## 📄 License
 
-Personal learning repository. If you’d like to use any snippet, feel free—please credit.
+Licensed under the MIT License — see LICENSE for details.
