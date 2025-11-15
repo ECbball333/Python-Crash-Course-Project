@@ -1,12 +1,12 @@
 favorite_numbers = {
-    'elliot': 3,
-    'jamie': 6,
-    'evan': 13,
-    'zae': 10,
-    'shawn': 4,
+    'mike': 3,
+    'tim': 6,
+    'steve': 13,
+    'jerry': 10,
+    'bob': 4,
     }
-favorite_numbers['jamie'] = 5
-favorite_numbers['zae'] = 15
+favorite_numbers['mike'] = 5
+favorite_numbers['tim'] = 15
 for number in favorite_numbers:
     print(f"{number.title()}'s favorite number is {favorite_numbers[number]}")
 

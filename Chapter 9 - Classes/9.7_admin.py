@@ -36,9 +36,9 @@ class Admin(User):
     #        self.admin_roles.remove(role)
 
 # Example usage
-elliot = Admin('elliot', 'conner', admin_roles=['admin', 'manager'])
-evan = Admin( 'evan', 'conner', admin_roles=['user', 'admin'])
-jamie = Admin('jamie', 'conner')
+mike = Admin('mike', 'smith', admin_roles=['admin', 'manager'])
+james = Admin( 'james', 'smith', admin_roles=['user', 'admin'])
+nicole = Admin('nicole', 'smith')
 
 
-elliot.greet_admin()
+mike.greet_admin()

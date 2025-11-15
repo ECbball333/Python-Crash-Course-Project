@@ -4,10 +4,10 @@ person = {
     'first_name': 'Jamie',
     'last_name': 'Conner',
     'age': 43,
-    'adderss': '768 Knightswood Road',
-    'city': 'Fort Mill',
-    'state': 'South Carolina',
-    'zip_code': 29708
+    'adderss': '384 Mable St',
+    'city': 'Dallas',
+    'state': 'Texas',
+    'zip_code': 23423
     }
 
 print(f"{person['first_name']} {person['last_name']} is {person['age']} years old.",

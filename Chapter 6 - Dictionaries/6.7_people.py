@@ -1,31 +1,31 @@
 person_1 = {
-    'first_name': 'jamie',
-    'last_name': 'conner',
-    'age': 43,
-    'address': '768 knightswood road',
-    'city': 'Fort Mill',
-    'state': 'South Carolina',
-    'zip_code': 29708
+    'first_name': 'steve',
+    'last_name': 'jobs',
+    'age': 34,
+    'address': '7345 Willow Drive',
+    'city': 'Dallas',
+    'state': 'Texas',
+    'zip_code': 34535
     }
 
 person_2 = {
-    'first_name': 'elliot',
-    'last_name': 'conner',
-    'age': 44,
-    'address': '768 knightswood road',
-    'city': 'Fort Mill',
-    'state': 'South Carolina',
-    'zip_code': 29708
+    'first_name': 'mike',
+    'last_name': 'jones',
+    'age': 34,
+    'address': '24387 Elm St',
+    'city': 'Jackson',
+    'state': 'Tennessee',
+    'zip_code': 42356
     }
 
 person_3 = {
-    'first_name': 'evan',
-    'last_name': 'conner',
+    'first_name': 'william',
+    'last_name': 'gates',
     'age': 33,
-    'address': '12444 caracara court',
-    'city': 'charlotte',
-    'state': 'North Carolina',
-    'zip_code': 29278
+    'address': '1634 caracara court',
+    'city': 'New York',
+    'state': 'New York',
+    'zip_code': 56436
 }
 
 people = [person_1, person_2, person_3]

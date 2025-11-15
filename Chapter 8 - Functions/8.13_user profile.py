@@ -4,9 +4,9 @@ def build_profile(first, last, **user_info):
     user_info['last_name'] = last
     return user_info
 
-user_profile = build_profile('elliot', 'conner',
+user_profile = build_profile('chris', 'conner',
                              location='charlotte',
                              field='network engineering',
-                             age=44)
+                             age=30)
 
 print(user_profile)

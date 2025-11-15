@@ -1,9 +1,9 @@
 favorite_numbers = {
-    'elliot': [3, 6, 9],
-    'jamie': [6, 12,18],
-    'evan': [13, 26, 39],
-    'zae': [10, 20, 30],
-    'shawn': [4, 8, 12]
+    'tim': [3, 6, 9],
+    'john': [6, 12,18],
+    'steve': [13, 26, 39],
+    'bart': [10, 20, 30],
+    'jay': [4, 8, 12]
     }
 
 for number in favorite_numbers:

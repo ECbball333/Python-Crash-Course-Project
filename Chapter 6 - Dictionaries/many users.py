@@ -14,8 +14,8 @@ users = {
     'econner': {
         'first': 'elliot',
         'last': 'conner',
-        'location': 'fort mill',
-        'location_state': 'south carolina',
+        'location': 'jersey',
+        'location_state': 'jersey',
     }
 }
 
