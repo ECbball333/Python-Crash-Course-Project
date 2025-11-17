@@ -60,7 +60,21 @@ python some_example.py
 | 8       | Functions                        |  ✅    |
 | 9       | Classes                          |  ✅    |
 
-Update the table as you progress.
+## Progress
+
+### Chapter 16: Working with CSV and JSON Data
+
+- ✔️ Parsed weather data from Sitka, Death Valley, and San Francisco to visualize temperature and precipitation trends
+- ✔️ Implemented error handling to manage missing or malformed data entries
+- ✔️ Built side-by-side comparison charts for different geographic climates using `matplotlib`
+- ✔️ Refactored data parsing and visualization code for clarity and efficiency
+- ✔️ Loaded and explored real-world GeoJSON data from the USGS Earthquake API
+- ✔️ Extracted earthquake metadata and used `plotly.express` to create interactive global maps
+- ✔️ Used list unpacking and `zip()` to streamline variable assignments from complex nested data
+- ✔️ Automated chart titles using dataset metadata
+- ✔️ Visualized NASA fire detection data on a world map, with brightness and FRP represented as color and size
+- ✔️ Saved visualizations as static images and interactive HTML files
+
 
 ## 🧪 Testing & Linting (optional)
 
