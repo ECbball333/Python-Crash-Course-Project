@@ -62,6 +62,39 @@ python some_example.py
 
 ## Progress
 
+## Chapter 15: Generating Data
+
+This chapter focused on using Python to generate and visualize datasets. It introduced the use of `matplotlib` for static plotting and `plotly` for interactive data visualizations. The projects involved mathematical data generation, simulations, and visual analysis.
+
+### ✅ Skills Gained
+
+- Generating sequences of numbers (squares, cubes)
+- Creating and visualizing 2D random walks
+- Writing and using custom classes (`RandomWalk`, `Die`)
+- Running simulations and analyzing probability distributions
+- Visualizing data using `matplotlib` and `plotly`
+- Customizing chart appearance and saving plots to files
+
+### 📂 Projects Completed
+
+| File | Description |
+|------|-------------|
+| `15.1_cubes.py` | Plotted the first 5 cube numbers using a simple scatter plot |
+| `scatter_squares.py` | Plotted 1,000 square numbers with gradient coloring and axis formatting |
+| `random_walk.py` & `rw_visual.py` | Created random walk simulations and visualized them with colored point progression |
+| `15.3_molecular_motion.py` | Simulated molecular motion using styled random walks with colormaps and endpoint markers |
+| `15.6_two_d8s.py` | Simulated 200,000 rolls of two 8-sided dice and visualized results using a bar chart in Plotly |
+| `15.7_three_dice.py` | Simulated rolling three 6-sided dice and plotted the resulting frequency distribution |
+
+### 💡 Applications for Network Engineers
+
+- Model unpredictable traffic patterns or packet loss using random walks
+- Visualize frequency of events like packet drops or error codes using simulation-based histograms
+- Build probability distributions for network simulations or reliability testing
+- Apply data visualization techniques to network logs, SNMP data, or telemetry feeds
+
+---
+
 ### Chapter 16: Working with CSV and JSON Data
 
 - ✔️ Parsed weather data from Sitka, Death Valley, and San Francisco to visualize temperature and precipitation trends
