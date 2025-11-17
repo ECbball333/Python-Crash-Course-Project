@@ -9,7 +9,7 @@ lines = path.read_text(encoding='utf-8').splitlines()
 reader = csv.reader(lines)
 header_row = next(reader)
 
-print(header_row)
+#print(header_row)
 
 dates, prec = [], []
 for row in reader:
@@ -23,14 +23,14 @@ for row in reader:
 
 plt.style.use('seaborn-v0_8')
 fig, ax = plt.subplots(figsize=(10, 5))
-#ax.plot(dates, prec, color='red')
-ax.bar(dates, prec, width=1.0, align="center", color="tab:blue")
+ax.plot(dates, prec, color='red')
+#ax.bar(dates, prec, width=.9, align="center", color="tab:blue")
 
 ax.set_title("Sitka Precipitation Data - 2021")
 ax.set_xlabel('Date')
-ax.set_ylabel('Precipitation [inches]')
+ax.set_ylabel('Precipitation [mm]')
 fig.autofmt_xdate()
-ax.grid(True, axis="y", linewidth=0.4, alpha=0.4)
+ax.grid(True, axis="y", linewidth=1, alpha=0.4)
 
 plt.tight_layout()
 plt.show()
