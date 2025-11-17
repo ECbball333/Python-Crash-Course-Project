@@ -108,6 +108,18 @@ This chapter focused on using Python to generate and visualize datasets. It intr
 - ✔️ Visualized NASA fire detection data on a world map, with brightness and FRP represented as color and size
 - ✔️ Saved visualizations as static images and interactive HTML files
 
+- ### 📂 Projects Completed
+
+| File | Description |
+|------|-------------|
+| `16.1_sitka_rainfall.py` | Parsed and visualized 2021 precipitation data for Sitka, Alaska using `matplotlib` |
+| `16.2_sitka-death_valley_comparison.py` | Compared high/low temperatures between Sitka and Death Valley with enhanced error handling and shaded plots |
+| `16.3_san_francisco.py` | Extracted and plotted San Francisco temperature trends using CSV weather data |
+| `16.6_refactoring.py` | Refactored earthquake GeoJSON parsing by unpacking variables efficiently with `zip()` and visualized using `plotly.express` |
+| `16.7_automated_title.py` | Automated chart title generation using metadata from the GeoJSON dataset |
+| `16.8_recent_earthquakes.py` | Created an interactive global earthquake map using recent USGS GeoJSON data |
+| `16.9_world_fires.py` | Visualized NASA's satellite-detected fire data on a world map with brightness and confidence as hover info; exported map to PNG |
+
 
 ## 🧪 Testing & Linting (optional)
 
