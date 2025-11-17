@@ -28,15 +28,18 @@ for row in reader:
 
 plt.style.use('seaborn-v0_8')
 fig, ax = plt.subplots()
+
 ax.plot(dates, highs, color='red', alpha=0.5)
 ax.plot(dates, lows, color='blue', alpha=0.5)
 ax.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
+
 title = 'San Francisco Highs and Lows'
 ax.set_title(title)
 ax.set_xlabel('Date', fontsize=20)
 ax.set_ylabel('Temps', fontsize=20)
 fig.autofmt_xdate()
 ax.tick_params(labelsize=20)
+
 plt.show()
 
 
