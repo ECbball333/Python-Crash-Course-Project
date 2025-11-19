@@ -20,7 +20,7 @@ Hands-on exercises and mini-projects I’m completing while working through **Py
 - `Chapter 16 - Downloading Data/`
 - [Chapter 16 — Downloading Data/](./Chapter%2016%20-%20Downloading%20Data/)
 - `Chapter 17 - Working with APIs`
-- [Chapter 17 — Downloading Data/](./Chapter%2017%20-%20Working%20with%20APIs/)
+- [Chapter 17 — Working with APIs/](./Chapter%2017%20-%20Working%20with%20APIs/)
 - - `Cisco Scripts/` — a separate area where I jot down networking-related Python snippets  
 - `script.py` — scratchpad / quick experiments  
 
