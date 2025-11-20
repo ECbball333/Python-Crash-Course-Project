@@ -19,7 +19,9 @@ Hands-on exercises and mini-projects I’m completing while working through **Py
 - [Chapter 15 — Generating Data/](Chapter%2015%20-%20Generating%20Data/)
 - `Chapter 16 - Downloading Data/`
 - [Chapter 16 — Downloading Data/](./Chapter%2016%20-%20Downloading%20Data/)
-- `Cisco Scripts/` — a separate area where I jot down networking-related Python snippets  
+- `Chapter 17 - Working with APIs`
+- [Chapter 17 — Working with APIs/](./Chapter%2017%20-%20Working%20with%20APIs/)
+- - `Cisco Scripts/` — a separate area where I jot down networking-related Python snippets  
 - `script.py` — scratchpad / quick experiments  
 
 > Tip: Many examples are standalone scripts. If a chapter has multiple files, run them individually from that chapter’s folder.
