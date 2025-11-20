@@ -8,7 +8,7 @@ Hands-on exercises and mini-projects I’m completing while working through **Py
 - [Chapter 2 - Variables and Simple Data Types](Chapter%202%20-%20Variables%20and%20Simple%20Data%20Types/)
 - [Chapter 3 - Introducing Lists/](Chapter%203%20-%20Introducing%20Lists/)  
 - [Chapter 4 - Working With Lists/](Chapter%204%20-%20Working%20With%20Lists/)  
-- [Chapter 5 - If Statements/]  
+- [Chapter 5 - If Statements/](Chapter%205%20-%20If%20Statements/)  
 - [Chapter 6 - Dictionaries/]  
 - [Chapter 7 - Input and While Loops/]  
 - [Chapter 8 - Functions/]  
