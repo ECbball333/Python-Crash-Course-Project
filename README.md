@@ -4,7 +4,7 @@ Hands-on exercises and mini-projects I’m completing while working through **Py
 
 ## 📁 Repository Structure
 
-- `Chapter 1 - Introduction/`  
+- `[Chapter 1 - Introduction/](Chapter%2001%20-%20Introduction/)`  
 - `Chapter 2 - Variables and Simple Data Types/`  
 - `Chapter 3 - Introducing Lists/`  
 - `Chapter 4 - Working With Lists/`  
