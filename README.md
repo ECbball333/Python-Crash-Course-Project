@@ -2,7 +2,7 @@
 
 This repository tracks my progress through the first 17 chapters of *Python Crash Course* by Eric Matthes. Each chapter introduces foundational Python concepts, and I’ve included my working code, solutions, and experiments here.
 
-The structure is organized by chapter, with hands-on exercises that have helped reinforce concepts like variables, control flow, data structures, functions, file handling, testing, APIs, and basic data visualization.
+The structure is organized by chapter, with hands-on exercises that reinforce concepts like variables, control flow, data structures, functions, file handling, testing, APIs, and basic data visualization.
 
 ---
 
@@ -10,95 +10,93 @@ The structure is organized by chapter, with hands-on exercises that have helped 
 
 Each folder corresponds to a chapter and its core themes:
 
-### ✔️ [Chapter 01 - Introduction](./Chapter%201%20-%20Introduction)
+### ✔️ [01 - Introduction](./01%20-%20Introduction)
 - Overview of Python
 - Setting up the environment
 
-### ✔️ [Chapter 02 - Variables and Simple Data Types](./Chapter%202%20-%20Variables%20and%20Simple%20Data%20Types)
+### ✔️ [02 - Variables and Simple Data Types](./02%20-%20Variables%20and%20Simple%20Data%20Types)
 - Strings, numbers, and comments
 - Simple operations and formatting
 
-### ✔️ [Chapter 03 - Introducing Lists](./Chapter%203%20-%20Introducing%20Lists)
+### ✔️ [03 - Introducing Lists](./03%20-%20Introducing%20Lists)
 - List creation and access
 - Basic list manipulation
 
-### ✔️ [Chapter 04 - Working With Lists](./Chapter%204%20-%20Working%20With%20Lists)
+### ✔️ [04 - Working With Lists](./04%20-%20Working%20With%20Lists)
 - Looping through lists
 - List comprehensions
 - Slicing
 
-### ✔️ [Chapter 05 - If Statements](./Chapter%205%20-%20If%20Statements)
+### ✔️ [05 - If Statements](./05%20-%20If%20Statements)
 - Conditional logic
 - Boolean expressions
 
-### ✔️ [Chapter 06 - Dictionaries](./Chapter%206%20-%20Dictionaries)
+### ✔️ [06 - Dictionaries](./06%20-%20Dictionaries)
 - Key-value pairs
 - Nesting and looping through dictionaries
 
-### ✔️ [Chapter 07 - Input and While Loops](./Chapter%207%20-%20Input%20and%20While%20Loops)
+### ✔️ [07 - User Input and While Loops](./07%20-%20User%20Input%20and%20While%20Loops)
 - User input
 - While loops and flags
 
-### ✔️ [Chapter 08 - Functions](./Chapter%208%20-%20Functions)
+### ✔️ [08 - Functions](./08%20-%20Functions)
 - Defining and calling functions
 - Positional, keyword, and default arguments
 
-### ✔️ [Chapter 09 - Classes](./Chapter%209%20-%20Classes)
+### ✔️ [09 - Classes](./09%20-%20Classes)
 - OOP fundamentals
 - Inheritance and method overriding
 
-### ✔️ [Chapter 10 - Files and Exceptions](./Chapter%2010%20-%20Files%20and%20Exceptions)
+### ✔️ [10 - Files and Exceptions](./10%20-%20Files%20and%20Exceptions)
 - Reading and writing files
 - Exception handling
 
-### ✔️ [Chapter 11 - Testing Your Code](./Chapter%2011%20-%20Testing%20Your%20Code)
+### ✔️ [11 - Testing Your Code](./11%20-%20Testing%20Your%20Code)
 - Using `unittest` module
 - Writing test cases
 
-### ✔️ [Chapter 15 - Generating Data](./Chapter%2015%20-%20Generating%20Data)
+### ✔️ [15 - Generating Data](./15%20-%20Generating%20Data)
 - Matplotlib charts
 - Random walk simulations
 
-### ✔️ [Chapter 16 - Downloading Data](./Chapter%2016%20-%20Downloading%20Data)
+### ✔️ [16 - Downloading Data](./16%20-%20Downloading%20Data)
 - CSV and JSON file parsing
 - Working with real-world data
 
-### ✔️ [Chapter 17 - Working with APIs](./Chapter%2017%20-%20Working%20with%20APIs)
+### ✔️ [17 - Working with APIs](./17%20-%20Working%20with%20APIs)
 - Making API requests with `requests`
 - Parsing JSON responses
 
 ---
 
-## 🧪 Testing & Practice
-- [Pytest files](./Pytest%20files): Practice with writing tests
-- [Practice](./Practice): Extra exercises, scripts, and snippets for reinforcement
+## 🧪 Practice
+
+- [Pytest Files](./Pytest%20files): Unit testing examples
+- [Practice](./Practice): Extra scripts and exercises for reinforcement
 
 ---
 
-## 🔁 Project Continuation
+## 🚀 What's Next
 
-The skills developed here were later used in the **[Learning Log](https://github.com/E-Conners-Lab/The_Learning_log)** Django web app — a full-stack application that serves as a live, deployed learning journal.
+- The final project in the book is a game: **Alien Invasion**
+- I intentionally saved this for last to focus on app development and data work first
+
+After this:
+- I’ll move into **network automation**, exploring APIs, dashboards, and LLMs
+- My goal is to bridge Python with real-world infrastructure tooling
 
 ---
 
-## 🚀 Next Steps
+## 💻 Live Web App Built from These Skills
 
-The final project in the book is a game-based project (Alien Invasion - Chapters 12-15), which I saved for last to focus on applications like automation and data visualization first.
+I’ve already applied the knowledge gained here in my full Django project:  
+➡️ [The Learning Log](https://github.com/E-Conners-Lab/The_Learning_log)
 
-Up next:
-- Building the **Alien Invasion** game project
-- Diving deeper into **network automation**, **APIs**, and **dashboards**
-- Exploring the use of **LLMs** in managing network infrastructure
+This web app is deployed online and lets users track their learning entries in a database-backed site with user auth, CRUD functionality, and a live UI.
 
 ---
 
 ## 🛠 Requirements
 
-- Python 3.10+
-- `pip install -r requirements.txt` to set up environment
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+```bash
+pip install -r requirements.txt
