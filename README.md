@@ -83,7 +83,7 @@ The skills developed here were later used in the **[Learning Log](https://github
 
 ## 🚀 Next Steps
 
-The final project in the book is a game-based project (Alien Invasion), which I saved for last to focus on applications like automation and data visualization first.
+The final project in the book is a game-based project (Alien Invasion - Chapters 12-15), which I saved for last to focus on applications like automation and data visualization first.
 
 Up next:
 - Building the **Alien Invasion** game project
