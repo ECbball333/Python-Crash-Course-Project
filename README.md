@@ -10,40 +10,40 @@ The structure is organized by chapter, with hands-on exercises that have helped 
 
 Each folder corresponds to a chapter and its core themes:
 
-### ✔️ [Chapter 1 - Introduction](Chapter%201%20-%20Introduction)
+### ✔️ [Chapter 01 - Introduction](./Chapter%201%20-%20Introduction)
 - Overview of Python
 - Setting up the environment
 
-### ✔️ [Chapter 2 - Variables and Simple Data Types](./Chapter%202%20-%20Variables%20and%20Simple%20Data%20Types)
+### ✔️ [Chapter 02 - Variables and Simple Data Types](./Chapter%202%20-%20Variables%20and%20Simple%20Data%20Types)
 - Strings, numbers, and comments
 - Simple operations and formatting
 
-### ✔️ [Chapter 3 - Introducing Lists](./Chapter%203%20-%20Introducing%20Lists)
+### ✔️ [Chapter 03 - Introducing Lists](./Chapter%203%20-%20Introducing%20Lists)
 - List creation and access
 - Basic list manipulation
 
-### ✔️ [Chapter 4 - Working With Lists](./Chapter%204%20-%20Working%20With%20Lists)
+### ✔️ [Chapter 04 - Working With Lists](./Chapter%204%20-%20Working%20With%20Lists)
 - Looping through lists
 - List comprehensions
 - Slicing
 
-### ✔️ [Chapter 5 - If Statements](./Chapter%205%20-%20If%20Statements)
+### ✔️ [Chapter 05 - If Statements](./Chapter%205%20-%20If%20Statements)
 - Conditional logic
 - Boolean expressions
 
-### ✔️ [Chapter 6 - Dictionaries](./Chapter%206%20-%20Dictionaries)
+### ✔️ [Chapter 06 - Dictionaries](./Chapter%206%20-%20Dictionaries)
 - Key-value pairs
 - Nesting and looping through dictionaries
 
-### ✔️ [Chapter 7 - Input and While Loops](./Chapter%207%20-%20Input%20and%20While%20Loops)
+### ✔️ [Chapter 07 - Input and While Loops](./Chapter%207%20-%20Input%20and%20While%20Loops)
 - User input
 - While loops and flags
 
-### ✔️ [Chapter 8 - Functions](./Chapter%208%20-%20Functions)
+### ✔️ [Chapter 08 - Functions](./Chapter%208%20-%20Functions)
 - Defining and calling functions
 - Positional, keyword, and default arguments
 
-### ✔️ [Chapter 9 - Classes](./Chapter%209%20-%20Classes)
+### ✔️ [Chapter 09 - Classes](./Chapter%209%20-%20Classes)
 - OOP fundamentals
 - Inheritance and method overriding
 
