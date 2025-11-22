@@ -10,7 +10,7 @@ The structure is organized by chapter, with hands-on exercises that have helped 
 
 Each folder corresponds to a chapter and its core themes:
 
-### ✔️ [Chapter 1 - Introduction](./Chapter%201%20-%20Introduction)
+### ✔️ [Chapter 1 - Introduction](Chapter%201%20-%20Introduction)
 - Overview of Python
 - Setting up the environment
 
